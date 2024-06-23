@@ -25,6 +25,12 @@ This lists the versions in the order in which they were forked from the Microsof
 
 The CONFIG_n defines specify what Microsoft-version the OEM version is based on. If CONFIG_2B is defined, for example, CONFIG_2A, CONFIG_2, CONFIG_11A, CONFIG_11 and CONFIG_10A will be defined as well, and all bugfixes up to version 2B will be enabled.
 
+Additionally these releases are built for computer originally not having "original" Microsoft BASIC
+| Name                | Release  | .define    |
+| ------------------- |:--------:| ---------- |
+| W65C816SXB          |  2014    | CONFIG_2C  |
+
+
 The following symbols can be defined in addition:
 
 | Configuration Symbol              | Description

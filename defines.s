@@ -25,6 +25,9 @@ AIM65 := 1
 .elseif .def(sym1)
 SYM1 := 1
 .include "defines_sym1.s"
+.elseif .def(w65c816sxb)
+W65C816SXB := 1
+.include "defines_w65c816sxb.s"
 .endif
 
 .ifdef CONFIG_2C

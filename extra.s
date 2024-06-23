@@ -27,3 +27,7 @@
 .ifdef SYM1
         .byte   0,0,0
 .endif
+
+.ifdef W65C816SXB
+.include "w65c816sxb_extra.s"
+.endif

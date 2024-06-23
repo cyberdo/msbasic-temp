@@ -26,4 +26,7 @@
 .ifdef SYM1
 .include "sym1_iscntc.s"
 .endif
+.ifdef W65C816SXB
+.include "w65c816sxb_iscntc.s"
+.endif
 ;!!! runs into "STOP"
